@@ -1,1 +1,105 @@
+.quiz .quizQuestions > li .questionTitle {
+    font-family: Helvetica;
+}
 
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(
+    #000 0,
+    #000 1px,
+    #618264 2px,
+    #618264 20px
+  );
+  background-size: 20px 20px;
+  background-repeat: repeat;
+}
+#quiz1 {
+  border-radius: 3px;
+  justify-content: center;
+  background: white;
+  box-shadow: 0.1em 0.1em 0.5em #0005;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  min-height: 10rem;
+  min-width: 30rem;
+}
+
+.header {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Hylia serif;
+    color: green;
+    margin: 5px auto;
+    text-shadow: black 2px 1px 2px;
+}
+
+.quiz .quizControls button.ctrlDone {
+    background-color: #367E18;
+}
+
+.quiz .quizControls button {
+    border-radius: 9px;
+    color: white;
+}
+
+.quiz .quizControls button.ctrlPrev {
+    background-color: #367E18;
+}
+
+.quiz .quizControls button.ctrlNext {
+    background-color: #367E18;
+}
+
+.quiz .quizControls button.disabled {
+    cursor: not-allowed;
+    background: #FFEF82;
+}
+
+.quiz .quizControls button.disabled:hover {
+    background: #FFEF82 !important;
+}
+.quiz .quizControls button.ctrlNext:hover, .quiz .quizControls button.ctrlDone:hover {
+    background: #367E18;
+}
+.quiz button:hover {
+    background: #446A46;
+}
+
+.quiz .quizControls button.ctrlPrev:hover {
+    background: #367E18;
+}
+
+.quiz .quizQuestions ul.questionAnswers li {
+    border-radius: 10px;
+}
+
+.quiz .quizQuestions ul.questionAnswers li.selectedAnswer {
+    background: #99B080;
+    color: #FFF;
+}
+
+.quiz .quizQuestions ul.questionAnswers li:hover {
+    background: #FFEF82;
+}
+
+.quiz .quizQuestions ul.questionAnswers li.selectedAnswer:hover {
+    background: #99B080;
+}
+
+.quiz .quizResults li {
+    border-radius: 10px;
+}
+
+input[type='reset'] {
+  width: 5rem;
+  justify-self: end;
+}
+
+button.viewResults {
+    border-radius: 10px;
+}
